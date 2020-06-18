@@ -10,107 +10,66 @@
                 WELCOME TO THE FUSION BLEND<br><span id="small">-Where cultures socialize</span>
             </header>
         </div>
-        <div align="center" id="head">
-            <input type="text" id="name" placeholder="Enter Name">
-            <input type="text" id="customers" placeholder="Enter No. of people">
-            <select>
+        <div align="left">
+            <select id="eater">
                 <option>Veg</option>
                 <option>Non-Veg</option>
                 <option>Any</option>
             </select>
-            <button onclick="customerDetails()">Submit</button>
         </div>
-        <div id="menu" align="center">
-            <table align="center">
-                <tr>
-                    <td>
-                        <div>
-                        <button onclick="addItem()"><img src="resources/burger.jpg"></button>
-                        <br>BURGER
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <button onclick="addItem()"><img src="resources/salad.jpg"></button>
-                            <br>SALAD
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div>
-                            <button onclick="addItem()"><img src="resources/salmon.jpg"></button>
-                            <br>SALMON
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <button onclick="addItem()"><img src="resources/strawberry.jpg"></button>
-                            <br>STRAWBERRY DESERT
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div>
-                            <button onclick="addItem()"><img src="resources/french toast.jpg"></button>
-                            <br>FRENCH TOAST
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <button onclick="addItem()"><img src="resources/fries.jpg"></button>
-                            <br>FRIES
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div>
-                            <button onclick="addItem()"><img src="resources/hummus.jpg"></button>
-                            <br>HUMMUS AND KHUBUS
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <button onclick="addItem()"><img src="resources/dumplings.jpg"></button>
-                            <br>DUMPLINGS
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div>
-                            <button onclick="addItem()"><img src="resources/eggs.jpg"></button>
-                            <br>POACHED EGGS
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <button onclick="addItem()"><img src="resources/pancake.jpg"></button>
-                            <br>PANCAKES
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div>
-                            <button onclick="addItem()"><img src="resources/pizza.jpg"></button>
-                            <br>PIZZA
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <button onclick="addItem()"><img src="resources/drink.jpg"></button>
-                            <br>CRANBERRY DELIGHT
-                        </div>
-                    </td>
-                </tr>
-            </table>
-            
-            
-            
-            
+        <div id="icons">
+            <div>
+                <button><img src="resources/burgs.png"></button>
+                <div id="burgers">
+                    <table>
+                        <tr>
+                            <td>1.</td>
+                            <td id="food">Cheese Hamburger</td>
+                            <td></td>
+                            <td id="value">₹140</td>
+                            <td>
+                                <button><img id="smallImg" src="resources/minus.png"></button>
+                            </td>
+                            <td>
+                                <input type="text" value="0" placeholder="qty">
+                            </td>
+                            <td>
+                                <button><img id="smallImg" src="resources/add.png"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td id="food">Hamburger</td>
+                            <td></td>
+                            <td id="value">₹160</td>
+                            <td>
+                                <button><img id="smallImg" src="resources/minus.png"></button>
+                            </td>
+                            <td>
+                                <input type="text" value="0" placeholder="qty">
+                            </td>
+                            <td>
+                                <button><img id="smallImg" src="resources/add.png"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td id="food">Bacon Cheeseburger</td>
+                            <td></td>
+                            <td id="value">₹150</td>
+                            <td>
+                                <button><img id="smallImg" src="resources/minus.png"></button>
+                            </td>
+                            <td>
+                                <input type="text" value="0" placeholder="qty">
+                            </td>
+                            <td>
+                                <button><img id="smallImg" src="resources/add.png"></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
     </body>
     <script src="script.js"></script> 
