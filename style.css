@@ -53,3 +53,18 @@ table{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
 }
+
+#bill{
+    margin: 30px;
+    font-family: monospace;
+    font-size: medium;
+    border: 1px solid black;
+    color: gray;
+    text-align: center;
+    width: 500px;
+    height: 1000px;
+}
+
+.main{
+    width: 100%;
+}

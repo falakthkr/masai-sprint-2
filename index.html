@@ -17,60 +17,73 @@
                 <option>Any</option>
             </select>
         </div>
-        <div id="icons">
-            <div>
-                <button><img src="resources/burgs.png"></button>
-                <div id="burgers">
-                    <table>
+        <table class="main">
+            <tr>
+                <td align="left">
+                    <div id="icons">
+                        <div>
+                            <button><img src="resources/burgs.png"></button>
+                            <div id="burgers">
+                                <table>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td class="food" id="veg">Cheeseburger</td>
+                                        <td></td>
+                                        <td id="value">₹140</td>
+                                        <td>
+                                            <button><img id="smallImg" src="resources/minus.png"></button>
+                                        </td>
+                                        <td>
+                                            <input type="text" value="0" placeholder="qty">
+                                        </td>
+                                        <td>
+                                            <button><img id="smallImg" src="resources/add.png"></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.</td>
+                                        <td class="food" id="nonVeg">Hamburger</td>
+                                        <td></td>
+                                        <td id="value">₹160</td>
+                                        <td>
+                                            <button><img id="smallImg" src="resources/minus.png"></button>
+                                        </td>
+                                        <td>
+                                            <input type="text" value="0" placeholder="qty">
+                                        </td>
+                                        <td>
+                                            <button><img id="smallImg" src="resources/add.png"></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.</td>
+                                        <td class="food" id="nonVeg">Bacon Cheeseburger</td>
+                                        <td></td>
+                                        <td id="value">₹150</td>
+                                        <td>
+                                            <button><img id="smallImg" src="resources/minus.png"></button>
+                                        </td>
+                                        <td>
+                                            <input type="text" value="0" placeholder="qty">
+                                        </td>
+                                        <td>
+                                            <button><img id="smallImg" src="resources/add.png"></button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td align="right">
+                    <table id="bill">
                         <tr>
-                            <td>1.</td>
-                            <td id="food">Cheese Hamburger</td>
-                            <td></td>
-                            <td id="value">₹140</td>
-                            <td>
-                                <button><img id="smallImg" src="resources/minus.png"></button>
-                            </td>
-                            <td>
-                                <input type="text" value="0" placeholder="qty">
-                            </td>
-                            <td>
-                                <button><img id="smallImg" src="resources/add.png"></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2.</td>
-                            <td id="food">Hamburger</td>
-                            <td></td>
-                            <td id="value">₹160</td>
-                            <td>
-                                <button><img id="smallImg" src="resources/minus.png"></button>
-                            </td>
-                            <td>
-                                <input type="text" value="0" placeholder="qty">
-                            </td>
-                            <td>
-                                <button><img id="smallImg" src="resources/add.png"></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>3.</td>
-                            <td id="food">Bacon Cheeseburger</td>
-                            <td></td>
-                            <td id="value">₹150</td>
-                            <td>
-                                <button><img id="smallImg" src="resources/minus.png"></button>
-                            </td>
-                            <td>
-                                <input type="text" value="0" placeholder="qty">
-                            </td>
-                            <td>
-                                <button><img id="smallImg" src="resources/add.png"></button>
-                            </td>
+                            <td><b>BILL</b></td>
                         </tr>
                     </table>
-                </div>
-            </div>
-        </div>
+                </td>
+            </tr>
+        </table>
     </body>
     <script src="script.js"></script> 
 </html>
